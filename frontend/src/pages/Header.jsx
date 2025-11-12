@@ -45,9 +45,7 @@ export default function Header() {
     <Link to="/teacher/create-course" className="hover:text-gray-200">
       Create Course
     </Link>
-    <Link to="/my-courses" className="hover:text-gray-200">
-      My Courses
-    </Link>
+    
     <Link to="/courses-All" className="hover:text-gray-200">
       All Courses
     </Link>

@@ -48,12 +48,7 @@ export default function TeacherDashboard() {
     <div className="p-6">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold">Teacher Dashboard</h1>
-        <button
-         onClick={() => navigate("/teacher/create-course")}
-    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-  >
-          + Create Course
-        </button>
+       
       </div>
 
       {courses.length === 0 ? (
