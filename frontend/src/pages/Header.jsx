@@ -38,18 +38,21 @@ export default function Header() {
 
         {/* Teacher Section */}
         {role === "TEACHER" && (
-          <>
-            <Link to="/teacher/dashboard" className="hover:text-gray-200">
-              Dashboard
-            </Link>
-            <Link to="/my-courses" className="hover:text-gray-200">
-              My Courses
-            </Link>
-            <Link to="/courses-All" className="hover:text-gray-200">
-              All Courses
-            </Link>
-          </>
-        )}
+  <>
+    <Link to="/teacher/dashboard" className="hover:text-gray-200">
+      Dashboard
+    </Link>
+    <Link to="/teacher/create-course" className="hover:text-gray-200">
+      Create Course
+    </Link>
+    <Link to="/my-courses" className="hover:text-gray-200">
+      My Courses
+    </Link>
+    <Link to="/courses-All" className="hover:text-gray-200">
+      All Courses
+    </Link>
+  </>
+)}
 
 
         {/* Common for all logged-in users */}
