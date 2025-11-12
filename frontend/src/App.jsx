@@ -16,6 +16,8 @@ import CourseAnalytics from "./pages/CourseAnalytics";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import ProtectedRoute from "./ProtectedRoute";
+import CreateCourse from "./pages/CreateCourse";
+
 import './index.css';
 
 // to handle hiding header/footer
@@ -62,6 +64,8 @@ function App() {
           <Route path="/courses/:courseId/students" element={<EnrolledStudents />} />
           <Route path="/courses-All" element={<AllCourses />} />
           <Route path="/teacher/course/:courseId/analytics" element={<CourseAnalytics />} />
+        <Route path="/teacher/create-course" element={<CreateCourse />} />
+
         </Routes>
       </Layout>
     </Router>
